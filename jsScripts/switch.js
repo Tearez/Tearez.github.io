@@ -14,7 +14,7 @@ jQuery(document).ready(function () {
 				jQuery('.tabs ' + hrefVal).delay(500).slideDown(500);
 
 				$('.navbar-default .navbar-brand span').empty();
-
+				$('.navbar-default .navbar-nav li #tasks').parent('li').css('display', 'none');
 				e.preventDefault();
 			} else {
 
