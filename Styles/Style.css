@@ -1,0 +1,391 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300);
+html {
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0 0 60px;
+  background-color: rgb(247, 247, 247);
+}
+
+.footer {
+  position: absolute;
+  background-color: rgb(143, 143, 143);
+  border-top: 1px solid #E7E7E7;
+  text-align: center;
+  padding: 20px;
+  left: 0;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+}
+
+.navbar-brand {
+  padding-top: 6px;
+}
+
+.metal {
+  background: -webkit-radial-gradient(center, circle, rgba(255, 255, 255, .35), rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 21%), -webkit-radial-gradient(center, circle, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 21%), -webkit-radial-gradient(center, circle farthest-corner, #f0f0f0, #c0c0c0);
+  background: -moz-radial-gradient(center, circle, rgba(255, 255, 255, .35), rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 21%), -webkit-radial-gradient(center, circle, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 21%), -webkit-radial-gradient(center, circle farthest-corner, #f0f0f0, #c0c0c0);
+  background: -ms-radial-gradient(center, circle, rgba(255, 255, 255, .35), rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 21%), -webkit-radial-gradient(center, circle, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 21%), -webkit-radial-gradient(center, circle farthest-corner, #f0f0f0, #c0c0c0);
+  background: -o-radial-gradient(center, circle, rgba(255, 255, 255, .35), rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 21%), -webkit-radial-gradient(center, circle, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 21%), -webkit-radial-gradient(center, circle farthest-corner, #f0f0f0, #c0c0c0);
+  background: radial-gradient(center, circle, rgba(255, 255, 255, .35), rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 21%), -webkit-radial-gradient(center, circle, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 21%), -webkit-radial-gradient(center, circle farthest-corner, #f0f0f0, #c0c0c0);
+  background-size: 10px 10px, 10px 10px, 100% 100%;
+  background-position: 1px 1px, 0px 0px, center center;
+}
+
+.navbar-default .navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  color: #c70000;
+  text-transform: uppercase;
+  font-size: 38px;
+  font-weight: 800;
+  letter-spacing: -3px;
+  line-height: 1;
+  text-shadow: #9e9e9e 3px 2px 0;
+  position: relative;
+}
+
+.navbar-default .navbar-brand span {
+  font-family: 'Open Sans';
+  color: #353535;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: -3px;
+  line-height: 1;
+  text-shadow: #9e9e9e 3px 2px 0;
+  position: relative;
+}
+
+.navbar-default .navbar-nav li a {
+  font-family: 'Open Sans';
+  color: #353535;
+  font-weight: 500;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand:visited {
+  color: #c70000;
+}
+
+.navbar {
+  background-color: #999999;
+}
+
+.tab {
+  margin-top: 50px;
+  display: none;
+}
+
+.tab.active {
+  margin-top: 50px;
+  display: block;
+}
+
+.jumbotron {
+  width: 100%;
+}
+
+.jumbotron h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: #c70000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 500%;
+  font-weight: 800;
+  letter-spacing: -3px;
+  line-height: 1;
+  text-shadow: #9e9e9e 3px 2px 0;
+  position: relative;
+}
+
+#login form {
+  background: #eee;
+  padding: 3em 3em 1em;
+  max-width: 400px;
+  margin: 20px auto 20px;
+  box-shadow: 0 0 1em #222;
+  border-radius: 5px;
+}
+
+#login p {
+  margin: 0 0 3em 0;
+  position: relative;
+}
+
+#login label {
+  display: block;
+  font-size: 1.6em;
+  margin: 0 0 .3em;
+  color: #333;
+}
+
+#login input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none
+}
+
+#login input[type="text"],
+#login input[type="password"] {
+  background: #f5f5f5;
+  border: 1px solid #e5e5e5;
+  font-size: 1.6em;
+  padding: .5em .3em;
+  border-radius: 5px;
+}
+
+#login input[type="text"]:focus,
+#login input[type="password"]:focus {
+  background: #fff
+}
+
+#login span {
+  border-radius: 5px;
+  font-size: 1.3em;
+  text-align: center;
+  position: absolute;
+  background: #FF4545;
+  left: 105%;
+  top: 12px;
+  width: 160px;
+  padding: 7px 10px;
+  color: #fff;
+}
+
+#login span:after {
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(136, 183, 213, 0);
+  border-right-color: #FF4545;
+  border-width: 8px;
+  margin-top: -8px;
+}
+
+#login button[type="button"] {
+  background: #FF4545;
+  box-shadow: 0 3px 0 0 rgb(158, 45, 45);
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 2em;
+  line-height: 1.6em;
+  margin: 2em 2.9em 0;
+  width: 50%;
+  outline: none;
+  padding: .8em 0;
+  text-shadow: 0 1px #3d6636;
+}
+
+.loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: 'Open Sans';
+}
+
+.loginmodal-container .modal-header {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: 'Open Sans';
+}
+
+.loginmodal-container input[type=button] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.loginmodal-container input[type=text] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  border-radius: 2px;
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover,
+input[type=text]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.loginmodal-container textarea[type=text] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  border-radius: 2px;
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.loginmodal-container textarea[type=text]:hover,
+input[type=text]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+  border-radius: 3px;
+}
+
+.loginmodal-submit {
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+  background-color: #4d90fe;
+  padding: 17px 0px;
+  font-family: 'Open Sans';
+  font-size: 14px;
+}
+
+.loginmodal-submit:hover {
+  border: 0px;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  background-color: #357ae8;
+}
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+}
+
+.tabs #tasks .table-responsive {
+  display: block;
+  margin-top: 20px;
+  border: 0px solid #222;
+  border-radius: 2px;
+  max-height: 600px;
+  overflow: auto;
+}
+
+.t-title, .t-date, .t-button {
+  text-align: center;
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+.t-description {
+  text-align: center;
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+tr {
+  text-align: center;
+}
+.table-responsive {
+  margin-top: 20px;
+}
+#task-submit {
+  background: #FF4545;
+  box-shadow: 0 3px 0 0 rgb(158, 45, 45);
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 2em;
+  display: block;
+  line-height: 1.6em;
+  text-shadow: 0 1px #3d6636;
+}
+
+.table {
+  font-family: 'Open Sans';
+}
+
+#tasks .container>button {
+  background: #FF4545;
+  box-shadow: 0 3px 0 0 rgb(158, 45, 45);
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 2em;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 1.6em;
+  text-shadow: 0 1px #3d6636;
+}
+
+.table tbody tr td button {
+  background: #FF4545;
+  box-shadow: 0 3px 0 0 rgb(158, 45, 45);
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 1em;
+  margin-right: 0;
+  margin-left: 20px;
+  text-align: center;
+  line-height: 1.6em;
+  text-shadow: 0 0.5px #3d6636;
+}
+
+td textarea {
+  border: none;
+  background-color: rgba(34, 34, 34, 0);
+}
+
+.table>thead>tr>th {
+  border-bottom: 0.5;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+  background-color: #eeeeee;
+}
+#home .container {
+  min-width: 100%;
+  line-height: 1.6;
+  font-size: 1.2em;
+}

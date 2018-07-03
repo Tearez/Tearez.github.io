@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="C:/Users/Martin/Desktop/JS stuff/Project/Styles/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.css"
+    />
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="navbar navbar-default navbar-fixed-top metal" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-brand">T M
+                    <span></span>
+                </div>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a id="home-b" href="#home">
+                            <span class="glyphicon glyphicon-home"></span> Home</a>
+                    </li>
+                    <li style="display: none;">
+                        <a id="tasks" href="#tasks">
+                            <span class="glyphicon glyphicon-th-list"></span> Tasks</a>
+                    </li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a id="login-b" href="#login">
+                            <span class="glyphicon glyphicon-log-in"></span> Login</a>
+                    </li>
+                    <li style="display: none;">
+                        <a id="logout-b" href="#logout">
+                            <span class="glyphicon glyphicon-log-out"></span> LogOut</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- /navbar -->
+    <div class="tabs">
+        <div id="home" class="tab active">
+            <div class="jumbotron">
+                <div class="container">
+                    <h1>Task Manager</h1>
+                    <p>is a easy to use app, made to help you complete all projects on time.</p>
+                </div>
+            </div>
+            <div class="container">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris
+                    magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque
+                    non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum.
+                    Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in fringilla. Vivamus nisl leo, blandit
+                    at bibendum eu, tristique eget risus. Integer aliquet quam ut elit suscipit, id interdum neque porttitor.
+                    Integer faucibus ligula.Quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt.
+                    Ut tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit
+                    amet gravida nibh, facilisis gravida odio. Phasellus auctor velit at lacus blandit, commodo iaculis justo
+                    viverra. Etiam vitae est arcu. Mauris vel congue dolor. Aliquam eget mi mi. Fusce quam tortor, commodo
+                    ac dui quis, bibendum viverra erat. Maecenas mattis lectus enim, quis tincidunt dui molestie euismod.
+                    Curabitur et diam tristique, accumsan nunc eu, hendrerit tellus. Tibulum consectetur scelerisque lacus,
+                    ac fermentum lorem convallis sed.</p>
+            </div>
+            <div class="container">
+                <p>Orci facilisis, dignissim tortor vitae, ultrices mi. Vestibulum a iaculis lacus. Phasellus vitae convallis
+                    ligula, nec volutpat tellus. Vivamus scelerisque mollis nisl, nec vehicula elit egestas a. Sed luctus
+                    metus id mi gravida, faucibus convallis neque pretium. Maecenas quis sapien ut leo fringilla tempor vitae
+                    sit amet leo. Donec imperdiet tempus placerat. Pellentesque pulvinar ultrices nunc sed ultrices. Morbi
+                    vel mi pretium, fermentum lacus et, viverra tellus. Phasellus sodales libero nec dui convallis, sit amet
+                    fermentum sapien auctor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                    Curae; Sed eu elementum nibh, quis varius libero.Nam eget purus nec est consectetur vehicula. Nullam
+                    ultrices nisl risus, in viverra libero egestas sit amet. Etiam porttitor dolor non eros pulvinar malesuada.
+                    Vestibulum sit amet est mollis nulla tempus aliquet. Praesent luctus hendrerit arcu non laoreet. Morbi
+                    consequat placerat magna, ac ornare odio sagittis sed. Donec vitae ullamcorper purus. Vivamus non metus
+                    ac justo porta volutpat.</p>
+            </div>
+            <div class="container">
+                <p>Pulvinar leo id risus pellentesque vestibulum. Sed diam libero, sodales eget sapien vel, porttitor bibendum
+                    enim. Donec sed nibh vitae lorem porttitor blandit in nec ante. Pellentesque vitae metus ipsum. Phasellus
+                    sed nunc ac sem malesuada condimentum. Etiam in aliquam lectus. Nam vel sapien diam. Donec pharetra id
+                    arcu eget blandit. Proin imperdiet mattis augue in porttitor. Quisque tempus enim id lobortis feugiat.
+                    Suspendisse tincidunt risus quis dolor fringilla blandit. Ut sed sapien at purus lacinia porttitor. Nullam
+                    iaculis, felis a pretium ornare, dolor nisl semper tortor, vel sagittis lacus est consequat eros. Sed
+                    id pretium nisl. Curabitur dolor nisl, laoreet vitae aliquam id.Nullam hendrerit justo non leo aliquet
+                    imperdiet. Etiam in sagittis lectus. Suspendisse ultrices placerat accumsan. Mauris quis dapibus orci.
+                    In dapibus velit blandit pharetra tincidunt. Quisque non sapien nec lacus condimentum facilisis ut iaculis
+                    enim. Sed viverra interdum bibendum. Donec ac sollicitudin dolor. Sed fringilla vitae lacus at rutrum.
+                    Phasellus congue vestibulum ligula sed consequat.</p>
+            </div>
+            <div class="container">
+                <p>Enim arcu, interdum vel metus dignissim, venenatis feugiat purus. Nulla posuere orci ut leo sodales, sed
+                    cursus dolor ornare. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                    mus. Etiam sit amet quam orci. Nulla sollicitudin lectus eget posuere venenatis. Sed vestibulum elementum
+                    sagittis. Quisque tristique tortor quis feugiat sollicitudin. Ut pellentesque luctus vulputate. Ut at
+                    odio ac erat blandit vehicula ut eget urna. In hac habitasse platea dictumst. Nullam ut iaculis nibh,
+                    eget eleifend elit.Convallis eget pretium eu, bibendum non leo. Proin suscipit purus adipiscing dolor
+                    gravida, in fermentum sapien blandit. Praesent pellentesque ligula dui, in gravida turpis vehicula ac.
+                    Pellentesque hendrerit nunc ut luctus hendrerit. Aliquam nec tincidunt urna. Ut interdum nec odio non
+                    interdum. Curabitur ligula justo, dapibus non ligula tristique, dapibus tristique nulla. Aliquam pulvinar
+                    dapibus eros, rutrum pretium urna iaculis ut. Nam est est, tempus id egestas et, viverra in dui. Aliquam
+                    gravida orci tortor, sed congue justo ornare vel. Cras in quam consectetur eros varius scelerisque. Ut
+                    vel fermentum purus. Nullam interdum blandit turpis, id pellentesque massa feugiat at. Ut sed lectus
+                    lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla
+                    rutrum, ante quis convallis ultricies, magna quam rhoncus erat, in lacinia libero magna a ipsum.</p>
+            </div>
+            <div class="container">
+                <p>Fusce enim arcu, interdum vel metus dignissim, venenatis feugiat purus. Nulla posuere orci ut leo sodales,
+                    sed cursus dolor ornare. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                    mus. Etiam sit amet quam orci. Nulla sollicitudin lectus eget posuere venenatis. Sed vestibulum elementum
+                    sagittis. Quisque tristique tortor quis feugiat sollicitudin. Ut pellentesque luctus vulputate. Ut at
+                    odio ac erat blandit vehicula ut eget urna. In hac habitasse platea dictumst. Nullam ut iaculis nibh,
+                    eget eleifend elit.</p>
+            </div>
+        </div>
+
+        <div id="tasks" class="tab">
+            <div class="container">
+                <button data-toggle="modal" data-target="#login-modal">New Task</button>
+
+                <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+                    <div class="modal-dialog">
+                        <div class="loginmodal-container">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h2 class="modal-title">New Task</h4>
+                            </div>
+                            <br>
+                            <form>
+                                <input id="task-title" class="form-control" type="text" name="name" placeholder="Task Title">
+                                <textarea id="task-desc" class="form-control" type="text" name="description" placeholder="Desription"></textarea>
+                                <div class="form-group ">
+                                    <input class="form-control" id="date" name="date" placeholder="Due Date (MM/DD/YYYY)" type="text" />
+                                </div>
+                                <input id="task-submit" type="button" name="complete" class="login loginmodal-submit" value="Add Task">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead class="metal">
+                            <tr>
+                                <th style="width: 0;"></th>
+                                <th class="t-title">Title</th>
+                                <th class="t-description">Description</th>
+                                <th class="t-date">Due Date</th>
+                                <th class="t-button">Completed?</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div id="login" class="tab">
+            <div class="container">
+                <form action="#" method="post">
+                    <p>
+                        <label for="username">Username</label>
+                        <input id="username" name="username" type="text" placeholder="User Name">
+                    </p>
+                    <p>
+                        <label for="password">Password</label>
+                        <input id="password" name="password" type="password" placeholder="Password">
+                        <span>Enter a password longer than 8 characters</span>
+                    </p>
+                    <button id="submit" type="button">LOGIN</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer metal">
+        <p>Made by a really cool dude ;)</p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="C:/Users/Martin/Desktop/JS stuff/Project/jsScripts/switch.js"></script>
+    <script src="C:/Users/Martin/Desktop/JS stuff/Project/jsScripts/signUpScript.js"></script>
+    <script src="C:/Users/Martin/Desktop/JS stuff/Project/jsScripts/submitScript.js"></script>
+    <script src="C:/Users/Martin/Desktop/JS stuff/Project/jsScripts/datepicker.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.min.js"></script>
+    <script src="C:/Users/Martin/Desktop/JS stuff/Project/jsScripts/newTask.js"></script>
+    <script src="C:/Users/Martin/Desktop/JS stuff/Project/jsScripts/removetask.js"></script>
+    <script src="C:\Users\Martin\Desktop\JS stuff\Project\jsScripts\oddparagraphs.js"></script>
+</body>
+
+</html>
